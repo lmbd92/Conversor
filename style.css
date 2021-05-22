@@ -1,0 +1,40 @@
+* {
+  font-size: x-large;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #30343f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+p {
+  margin-bottom: 10px;
+}
+
+select {
+  margin: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
