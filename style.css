@@ -7,6 +7,8 @@
 
 body {
   background-color: #30343f;
+  background-image: url(./assets/undraw_personal_finance_tqcd.svg);
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: #30343f;
   border: solid 1px;
   border-radius: 5px;
   padding: 15px;
@@ -26,13 +28,18 @@ body {
 .title {
   margin-bottom: 10px;
   font-size: 38px;
+  color: #ffffff;
 }
 p {
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 select {
   margin: 10px;
+}
+option {
+  color: black;
 }
 
 button {
